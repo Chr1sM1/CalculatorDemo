@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6EB"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="5">
+
+    <EditText
+        android:id="@+id/et_result"
+        android:layout_rowWeight="7"
+        android:layout_columnSpan="4"
+        android:layout_columnWeight="4"
+        android:focusable="false"
+        android:fontFamily="sans-serif-black"
+        android:gravity="end|bottom"
+        android:text="0"
+        android:textSize="48sp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_ce"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#DCDCDC"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:onClick="clearError"
+        android:text="CE"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#DCDCDC"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:onClick="clear"
+        android:text="C"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#DCDCDC"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="÷"
+        android:textSize="38sp" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#DCDCDC"
+        android:gravity="center"
+        android:onClick="backspace"
+        android:src="@drawable/ic_launcher_backspace"
+        android:textSize="28sp" />
+
+
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="7"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="8"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_9"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="9"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_multiply"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#DCDCDC"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="×"
+        android:textSize="38sp" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="4"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="5"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="6"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#DCDCDC"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="—"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="1"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="2"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="3"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#DCDCDC"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="+"
+        android:textSize="38sp" />
+
+
+    <Button
+        android:id="@+id/btn_percent"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:onClick="processPercent"
+        android:text="%"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="inputFormula"
+        android:text="0"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_dot"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#ffffff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="processDot"
+        android:text="."
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_equal"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="0.5dp"
+        android:background="#96C3EB"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:onClick="calculate"
+        android:text="="
+        android:textSize="40sp" />
+
+
+</GridLayout>
